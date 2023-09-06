@@ -1,16 +1,22 @@
-# flutter_playground
 
-A new Flutter project.
+<h1>TodoList de Estudo</h1>
 
-## Getting Started
+<h2>Um aplicativo Flutter de estudo com arquitetura limpa</h2>
 
-This project is a starting point for a Flutter application.
+Este aplicativo é uma lista de tarefas simples que usa uma API para obter as tarefas. O aplicativo é projetado com arquitetura limpa, dividindo-o em camadas de domínio, apresentação e infraestrutura.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+<h3>**Arquitetura**</h3>
+
+O aplicativo é dividido em três camadas:
+
+Domínio: Essa camada contém os modelos de domínio, como a tarefa.
+Apresentação: Essa camada contém as telas do aplicativo e as interações do usuário.
+Infraestrutura : esta camada responsável por tratar os dados vindos da API.
+data: Essa camada contém a lógica de acesso à API.
+
+![image](https://github.com/KaiserGid/flutter_playground/assets/6286170/1ffb4480-f8b0-47ec-ba5c-875cc99b6549)
+
